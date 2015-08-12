@@ -29,7 +29,7 @@ public class XOCLI {
 
     static String playerNameInput(final int count) {
         Scanner sc = new Scanner(System.in);
-        System.out.format("Enter Player %s  name: ", count);
+        System.out.format("Enter Player %s  name:", count);
         String name = sc.nextLine();
         return name;
     }
